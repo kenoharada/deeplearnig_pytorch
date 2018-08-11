@@ -2,7 +2,7 @@
 import torch
 import torchvision
 import torchvision.transforms as transforms
-%matplotlib inline
+#%matplotlib inline
 #The output of torchvision datasets are PILImage images of range [0, 1].
 #We transform them to Tensors of normalized range [-1, 1].
 transform = transforms.Compose(
